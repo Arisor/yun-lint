@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'C:\\Users\\kingdee\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath H:\repo\yun-lint
+3 info Removing the following directories:
+4 info clean packages\eslint-config-arisor\node_modules
+4 info clean packages\yun-lint-cli\node_modules
+5 info clean removing H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
+6 silly rimrafDir H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
+7 info clean removing H:\repo\yun-lint\packages\yun-lint-cli\node_modules
+8 silly rimrafDir H:\repo\yun-lint\packages\yun-lint-cli\node_modules
+9 verbose rimrafDir removed H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
+10 error

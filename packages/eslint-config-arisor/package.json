@@ -1,0 +1,31 @@
+{
+  "name": "@arisor/eslint-config-arisor",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "kun_yk <kun_yk@yunzhijia.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/eslint-config-arisor.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.yzjop.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/eslint-config-arisor.test.js"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint-config-egg": "^12.2.1",
+    "eslint-plugin-vue": "^9.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.38.0"
+  }
+}

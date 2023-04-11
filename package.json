@@ -1,0 +1,16 @@
+{
+  "name": "yun-lint",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "link:cli": "lerna exec --scope yun-lint-cli 'npm link'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
