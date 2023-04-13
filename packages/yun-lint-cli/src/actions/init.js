@@ -12,7 +12,7 @@ import fs from "fs-extra";
 
 import glob from "glob";
 
-import { execSync } from "child_process";
+import spawn from "cross-spawn";
 
 import generateTemplate from "../utils/template.js";
 
@@ -32,7 +32,7 @@ export default async () => {
     await changeDependenciesAndConfig(config);
 
     log.info(`Step ${++step}. 安装依赖`);
-    execSync(`npm i -D ${pkg.name}`);
+    spawn.sync("npm", ["i", "-D", pkg.name], { stdio: "inherit" });
     log.success(`Step ${step}. 安装依赖成功`);
 
     // 完成信息
