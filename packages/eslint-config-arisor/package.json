@@ -19,7 +19,7 @@
   "scripts": {
     "test": "node ./__tests__/eslint-config-arisor.test.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/eslint-parser": "^7.21.3",
     "@vue/eslint-config-standard": "^8.0.1",
     "eslint-config-egg": "^12.2.1",

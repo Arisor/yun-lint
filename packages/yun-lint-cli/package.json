@@ -7,7 +7,7 @@
   "homepage": "",
   "license": "ISC",
   "bin": {
-    "yun-lint": "./src/lib/yun-lint-cli.js"
+    "yun-lint": "./src/bin/yun-lint.js"
   },
   "directories": {
     "lib": "lib",
@@ -19,10 +19,8 @@
   "publishConfig": {
     "registry": "http://npm.yzjop.com/"
   },
-  "scripts": {
-    "test": "node ./__tests__/yun-lint-cli.test.js"
-  },
-  "devDependencies": {
+  "scripts": {},
+  "dependencies": {
     "@arisor/eslint-config-arisor": "^0.0.1-alpha.0",
     "command-exists": "^1.2.9",
     "commander": "^10.0.0",
