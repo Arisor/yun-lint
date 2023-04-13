@@ -4,7 +4,7 @@ import { pkg } from "../utils/constants.js";
 
 import { execSync } from "child_process";
 
-const latestVersion = null;
+let latestVersion = null;
 
 // 检测版本是否最新
 export const checkUpdate = async () => {
