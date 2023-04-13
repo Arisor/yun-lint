@@ -6,13 +6,6 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/eslint-config-arisor.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "registry": "http://npm.yzjop.com/"
   },

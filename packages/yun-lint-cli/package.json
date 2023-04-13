@@ -10,11 +10,11 @@
     "yun-lint": "./src/bin/yun-lint.js"
   },
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "registry": "http://npm.yzjop.com/"
