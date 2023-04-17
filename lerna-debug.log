@@ -1,16 +1,104 @@
 0 silly argv {
-0 silly argv   _: [ 'clean' ],
+0 silly argv   _: [ 'bootstrap' ],
 0 silly argv   lernaVersion: '6.6.1',
 0 silly argv   '$0': 'C:\\Users\\kingdee\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js'
 0 silly argv }
 1 notice cli v6.6.1
 2 verbose rootPath H:\repo\yun-lint
-3 info Removing the following directories:
-4 info clean packages\eslint-config-arisor\node_modules
-4 info clean packages\yun-lint-cli\node_modules
-5 info clean removing H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
-6 silly rimrafDir H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
-7 info clean removing H:\repo\yun-lint\packages\yun-lint-cli\node_modules
-8 silly rimrafDir H:\repo\yun-lint\packages\yun-lint-cli\node_modules
-9 verbose rimrafDir removed H:\repo\yun-lint\packages\eslint-config-arisor\node_modules
-10 error
+3 silly npmConfig {
+3 silly npmConfig   registry: undefined,
+3 silly npmConfig   npmClient: 'yarn',
+3 silly npmConfig   npmClientArgs: [],
+3 silly npmConfig   mutex: 'network:42424'
+3 silly npmConfig }
+4 info Bootstrapping 2 packages
+5 verbose lifecycle preinstall
+6 silly lifecycle No script for "preinstall" in "@arisor/eslint-config-arisor", continuing
+7 silly lifecycle No script for "preinstall" in "@arisor/yun-lint-cli", continuing
+8 silly hasDependencyInstalled @arisor/eslint-config-arisor @babel/eslint-parser
+9 silly hasDependencyInstalled @arisor/eslint-config-arisor @vue/eslint-config-standard
+10 silly hasDependencyInstalled @arisor/eslint-config-arisor eslint-config-egg
+11 silly hasDependencyInstalled @arisor/eslint-config-arisor eslint-plugin-vue
+12 silly hasDependencyInstalled @arisor/yun-lint-cli chalk
+13 silly hasDependencyInstalled @arisor/yun-lint-cli command-exists
+14 silly hasDependencyInstalled @arisor/yun-lint-cli commander
+15 silly hasDependencyInstalled @arisor/yun-lint-cli cross-spawn
+16 silly hasDependencyInstalled @arisor/yun-lint-cli ejs
+17 silly hasDependencyInstalled @arisor/yun-lint-cli fs-extra
+18 silly hasDependencyInstalled @arisor/yun-lint-cli glob
+19 silly hasDependencyInstalled @arisor/yun-lint-cli inquirer
+20 silly hasDependencyInstalled @arisor/yun-lint-cli lodash
+21 silly hasDependencyInstalled @arisor/yun-lint-cli ora
+22 silly root dependencies {}
+23 silly leaf dependencies {}
+24 info Installing external dependencies
+25 verbose actions 2 actions, concurrency 12
+26 silly npmInstallDependencies @arisor/eslint-config-arisor [
+26 silly npmInstallDependencies   '@babel/eslint-parser@^7.21.3',
+26 silly npmInstallDependencies   '@vue/eslint-config-standard@^8.0.1',
+26 silly npmInstallDependencies   'eslint-config-egg@^12.2.1',
+26 silly npmInstallDependencies   'eslint-plugin-vue@^9.10.0'
+26 silly npmInstallDependencies ]
+27 silly npmInstallDependencies backup H:\repo\yun-lint\packages\eslint-config-arisor\package.json
+28 silly npmInstallDependencies @arisor/yun-lint-cli [
+28 silly npmInstallDependencies   'chalk@^4.1.0',
+28 silly npmInstallDependencies   'command-exists@^1.2.9',
+28 silly npmInstallDependencies   'commander@^10.0.0',
+28 silly npmInstallDependencies   'cross-spawn@^7.0.3',
+28 silly npmInstallDependencies   'ejs@^3.1.9',
+28 silly npmInstallDependencies   'fs-extra@^11.1.1',
+28 silly npmInstallDependencies   'glob@^9.3.4',
+28 silly npmInstallDependencies   'inquirer@^7.3.3',
+28 silly npmInstallDependencies   'lodash@^4.17.21',
+28 silly npmInstallDependencies   'ora@^6.3.0'
+28 silly npmInstallDependencies ]
+29 silly npmInstallDependencies backup H:\repo\yun-lint\packages\yun-lint-cli\package.json
+30 silly npmInstallDependencies writing tempJson {
+30 silly npmInstallDependencies   name: '@arisor/eslint-config-arisor',
+30 silly npmInstallDependencies   version: '0.0.3-alpha.0',
+30 silly npmInstallDependencies   description: '> TODO: description',
+30 silly npmInstallDependencies   author: 'kun_yk <kun_yk@yunzhijia.com>',
+30 silly npmInstallDependencies   homepage: '',
+30 silly npmInstallDependencies   license: 'ISC',
+30 silly npmInstallDependencies   main: 'lib/eslint-config-arisor.js',
+30 silly npmInstallDependencies   publishConfig: { registry: 'http://npm.yzjop.com/' },
+30 silly npmInstallDependencies   dependencies: {
+30 silly npmInstallDependencies     '@babel/eslint-parser': '^7.21.3',
+30 silly npmInstallDependencies     '@vue/eslint-config-standard': '^8.0.1',
+30 silly npmInstallDependencies     'eslint-config-egg': '^12.2.1',
+30 silly npmInstallDependencies     'eslint-plugin-vue': '^9.10.0'
+30 silly npmInstallDependencies   },
+30 silly npmInstallDependencies   peerDependencies: { eslint: '^8.38.0' }
+30 silly npmInstallDependencies }
+31 silly npmInstallDependencies writing tempJson {
+31 silly npmInstallDependencies   name: '@arisor/yun-lint-cli',
+31 silly npmInstallDependencies   type: 'module',
+31 silly npmInstallDependencies   version: '0.0.6-alpha.0',
+31 silly npmInstallDependencies   description: '> TODO: description',
+31 silly npmInstallDependencies   author: 'kun_yk <kun_yk@yunzhijia.com>',
+31 silly npmInstallDependencies   homepage: '',
+31 silly npmInstallDependencies   license: 'ISC',
+31 silly npmInstallDependencies   bin: { 'yun-lint': './src/bin/yun-lint.js' },
+31 silly npmInstallDependencies   directories: { src: 'src', test: '__tests__' },
+31 silly npmInstallDependencies   files: [ 'src' ],
+31 silly npmInstallDependencies   publishConfig: { registry: 'http://npm.yzjop.com/' },
+31 silly npmInstallDependencies   dependencies: {
+31 silly npmInstallDependencies     chalk: '^4.1.0',
+31 silly npmInstallDependencies     'command-exists': '^1.2.9',
+31 silly npmInstallDependencies     commander: '^10.0.0',
+31 silly npmInstallDependencies     'cross-spawn': '^7.0.3',
+31 silly npmInstallDependencies     ejs: '^3.1.9',
+31 silly npmInstallDependencies     'fs-extra': '^11.1.1',
+31 silly npmInstallDependencies     glob: '^9.3.4',
+31 silly npmInstallDependencies     inquirer: '^7.3.3',
+31 silly npmInstallDependencies     lodash: '^4.17.21',
+31 silly npmInstallDependencies     ora: '^6.3.0'
+31 silly npmInstallDependencies   }
+31 silly npmInstallDependencies }
+32 silly getNpmExecOpts H:\repo\yun-lint\packages\eslint-config-arisor undefined
+33 silly npmInstall [
+33 silly npmInstall   'yarn',
+33 silly npmInstall   [ 'install', '--mutex', 'network:42424', '--non-interactive' ]
+33 silly npmInstall ]
+34 silly npmInstallDependencies cleanup H:\repo\yun-lint\packages\yun-lint-cli\package.json
+35 error
