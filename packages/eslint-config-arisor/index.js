@@ -10,9 +10,4 @@ module.exports = {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
   },
-  configs: {
-    vue2: require("./configs/vue2"),
-    vue3: require("./configs/vue3"),
-    node: require("./configs/node"),
-  },
 };
