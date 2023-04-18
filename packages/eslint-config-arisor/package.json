@@ -5,7 +5,7 @@
   "author": "kun_yk <kun_yk@yunzhijia.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/eslint-config-arisor.js",
+  "main": "index.js",
   "publishConfig": {
     "registry": "http://npm.yzjop.com/"
   },
