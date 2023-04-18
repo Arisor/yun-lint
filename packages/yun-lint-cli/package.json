@@ -1,7 +1,7 @@
 {
   "name": "@arisor/yun-lint-cli",
   "type": "module",
-  "version": "0.0.7-alpha.0",
+  "version": "0.0.8-alpha.0",
   "description": "> TODO: description",
   "author": "kun_yk <kun_yk@yunzhijia.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@arisor/eslint-config-arisor": "^0.0.3-alpha.0",
+    "@arisor/eslint-config-arisor": "^0.0.8-alpha.0",
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^10.0.0",
