@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "kun_yk <kun_yk@yunzhijia.com>",
+  "author": "arisor <1171723054@qq.com>",
   "homepage": "",
   "license": "ISC",
   "bin": {
@@ -17,7 +17,7 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://npm.yzjop.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {},
   "dependencies": {
@@ -40,5 +40,6 @@
     "strip-ansi": "^6.0.0",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0"
-  }
+  },
+  "gitHead": "dfc71e5b2c1a8e5816b8c778a86e3f16daf59599"
 }

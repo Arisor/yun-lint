@@ -2,12 +2,12 @@
   "name": "@arisor/eslint-config-arisor",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "kun_yk <kun_yk@yunzhijia.com>",
+  "author": "arisor <1171723054@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
-    "registry": "http://npm.yzjop.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "node ./__tests__/eslint-config-arisor.test.js"
@@ -20,5 +20,6 @@
   },
   "peerDependencies": {
     "eslint": "^8.38.0"
-  }
+  },
+  "gitHead": "dfc71e5b2c1a8e5816b8c778a86e3f16daf59599"
 }
