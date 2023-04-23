@@ -1,6 +1,6 @@
 # `yun-lint-cli`
 
-> TODO: yun-lint-cli 的目标是为了规范项目代码，降低接入 lint 工具的门槛，实现了【一键接入】【一键扫描】【一键修复】
+> TODO: yun-lint-cli 的目标是为了规范项目代码，降低接入 lint 工具的门槛，实现了【一键接入】【一键扫描】【一键修复】【一键升级】
 
 ### 安装
 
@@ -26,4 +26,10 @@ yun-lint scan
 
 ```
 yun-lint fix
+```
+
+【一键升级】升级到最新版本
+
+```
+yun-lint update
 ```

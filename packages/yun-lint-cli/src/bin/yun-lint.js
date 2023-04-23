@@ -74,7 +74,7 @@ program
 
 program
   .command("update")
-  .description(`更新 ${pkg.version} 至最新版本`)
+  .description(`【一键升级】更新 ${pkg.version} 至最新版本`)
   .action(() => update());
 
 program.parse(process.argv);
