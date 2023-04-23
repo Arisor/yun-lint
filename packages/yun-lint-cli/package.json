@@ -22,6 +22,8 @@
   "scripts": {},
   "dependencies": {
     "@arisor/eslint-config-arisor": "^0.0.9-alpha.0",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-angular": "^17.6.1",
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^10.0.0",
@@ -30,8 +32,13 @@
     "eslint": "^8.38.0",
     "fs-extra": "^11.1.1",
     "glob": "^9.3.4",
+    "husky": "^3.1.0",
     "inquirer": "^7.3.3",
     "lodash": "^4.17.21",
-    "ora": "^6.3.0"
+    "ora": "^6.3.0",
+    "prettier": "^2.8.7",
+    "strip-ansi": "^6.0.0",
+    "terminal-link": "^2.1.1",
+    "text-table": "^0.2.0"
   }
 }

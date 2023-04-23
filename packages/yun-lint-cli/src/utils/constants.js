@@ -10,3 +10,8 @@ export const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // package.json信息
 export const pkg = require(path.resolve(__dirname, "../../", "package.json"));
+
+export const UNICODE = {
+  success: "\u2714", // ✔
+  failure: "\u2716", // ✖
+};

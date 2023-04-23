@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "link:cli": "lerna exec --scope=@arisor/yun-lint-cli 'yarn link'"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",

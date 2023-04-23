@@ -170,11 +170,16 @@ const changeDependenciesAndConfig = async (config) => {
   if (!workspacePkg.scripts[`${binName}-fix`]) {
     workspacePkg.scripts[`${binName}-fix`] = `${binName} fix`;
   }
+  log.info(`Step ${++step}. 配置 commitlint `);
+  if (!workspacePkg.husky) workspacePkg.husky = {};
+  if (!workspacePkg.husky.hooks) workspacePkg.husky.hooks = {};
+  workspacePkg.husky.hooks['commit-msg'] = 'commitlint -E HUSKY_GIT_PARAMS';
   fs.writeFileSync(
     workspacePkgPath,
     JSON.stringify(workspacePkg, null, 2),
     "utf8"
   );
+  log.success(`Step ${step}. 配置 commitlint 成功`);
 
   // 删除配置文件
   for (const name of willRemoveConfig) {
